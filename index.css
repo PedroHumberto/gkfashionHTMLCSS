@@ -78,34 +78,9 @@
     border: 1px solid blue;
 }
 
-
-footer{
-    margin-top: 20px;
-    background-image: url(img/footer-background.png);
-    height: 100px;
-}
-
 /*Here starts media Queri */
 
 @media (min-width: 497px) and (max-width:960px){
-    .sub-container{
-        width: 497px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    ul{
-        list-style-type: none;    
-        background-color: #333;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        margin-top: 70px;
-    }
     .banner{
         display: flex;
         flex-direction: column;
@@ -144,27 +119,7 @@ footer{
     }
 
 }
-
 @media (max-width:496px){
-    .sub-container{
-        width: auto;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
-    }
-    ul{
-        list-style-type: none;    
-        background-color: #333;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        margin-top: 70px;
-    }
     .banner{
         display: flex;
         flex-direction: column;
