@@ -125,7 +125,9 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px auto;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
     width: 310px;
     height: 150px;
     font-size: 20px;
@@ -145,9 +147,7 @@ li a {
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid black;
-    height: 412px;
-    width: 940px;
-    
+
 }
 .arrival, .sellers{
     display: flex;
@@ -196,7 +196,7 @@ footer{
         justify-content: center;
         align-items: center;
         margin: auto;
-        height: 560px;
+        height: auto;
     }
     .banner p{
         display: flex;
@@ -254,7 +254,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 560px;
+        height: auto;
     }
     .banner p{
         display: flex;
