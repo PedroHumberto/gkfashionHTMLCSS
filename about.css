@@ -1,0 +1,22 @@
+hr{
+    width: auto;
+}
+h2{
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+p{
+    margin-top: 10px;
+}
+.history{
+    margin: 10px auto;
+    text-align: justify;
+}
+ul.differentials{
+    list-style-type: disc;
+}
+li.items{
+    margin-left: 15px;
+    margin-top: 10px;
+}

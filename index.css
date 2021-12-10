@@ -1,6 +1,6 @@
 .banner{
     margin: 15px auto;
-    width: 960px;
+    width: 940px;
     height: 560px;
     display: inline-block;
     position: relative;
@@ -58,25 +58,51 @@
     border-top: 1px solid rgba(121, 118, 81, 0.959);
     font-weight: bolder;
 }
-.cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid black;
+.arrival{
+    display: inline-block;
+    border-radius: 10px;
+    width: 428px;
+    padding: 5px;
+    background-image: linear-gradient(#f5dcdc, #bebef4);
+    transition: transform 0.7s ease-out;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.233);
+}
+.arrival:hover{
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.452);
+    transform: scale(1.02);    
+}
+.arrival h2{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+    padding-right: 5px;
+}
+.best-sellers{
+    display: inline-block;
+    border-radius: 10px;
+    width: 428px;
+    padding: 5px;
+    margin: 0 auto;
+    background-image: linear-gradient(#bebef4, #f5dcdc);
+    transition: transform 0.7s ease-out;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.233);
+    margin-bottom: 15px;
+}
+.best-sellers:hover{
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.452);
+    transform: scale(1.02);    
+}
+.best-sellers h2{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+    padding-right: 5px;
+}
 
-}
-.arrival, .sellers{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    border: 1px solid black;
-    margin: 5px auto 0 5px;
-    width: 460px;
-    height: 400px;
-    border: 1px solid blue;
-}
 
 /*Here starts media Queri */
 
