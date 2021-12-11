@@ -1,0 +1,32 @@
+h2{
+    margin-top: 20px;
+    color: #333;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+main{
+    width: 100%;
+}
+p{
+    margin: 10px auto;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+ul.list-differentials{
+    list-style-type: disc;
+}
+li.items{
+    margin: 15px 15px;
+}
+
+/*Here Starts the media queri*/
+@media (max-width: 960px){
+    .center{
+        display: none;
+    }
+}

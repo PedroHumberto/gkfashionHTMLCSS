@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1 class="title">Fashion Store</h1>
+            <div class="logo">
+                <img src="img/logo_GK.png" alt="">
+            </div>
             <nav class="navbar">
                 <ul>
                     <li>
@@ -24,12 +26,19 @@
                         <div class="dropdown">
                             <button class="dropbtn">DEPARTMENTS</button>
                             <div class="dropdown-content">
-                            <a href="#">Blouses and Shirts</a>
-                            <a href="#">Pants</a>
-                            <a href="#">Dresses</a>
-                            <a href="#">Shoes</a>
-                            <a href="#">Bags</a>
-                            <a href="#">Accessories</a>
+                                <div class="subnav">
+                                    <button class="subnavbtn">Blouses and Shirts <i class="fa fa-caret-down"></i></button>
+                                    <div class="subnav-content">
+                                      <a href="#company">T-shirt</a>
+                                      <a href="#team">Big Blouses</a>
+                                      <a href="#careers">Ola me de nome</a>
+                                    </div>
+                                  </div>   
+                                <a href="#">Pants</a>
+                                <a href="#">Dresses</a>
+                                <a href="#">Shoes</a>
+                                <a href="#">Bags</a>
+                                <a href="#">Accessories</a>
                             </div>
                         </div>
                     </li>
@@ -42,9 +51,9 @@
                         <div class="dropdown">
                             <button class="dropbtn">ABOUT</button>
                             <div class="dropdown-content">
-                                <a href="#">Fashion, Inc.</a>
+                                <a href="gkfashion.html">GK Fashion</a>
                                 <a href="about.html">Our History</a>
-                                <a href="#">Contac Us</a>
+                                <a href="contact.html">Contac Us</a>
                                 </div>
                         </div>
                     </li>
@@ -52,39 +61,37 @@
             </nav>
         </header>
         <div class="sub-container">
-            <div class="history">
-                <h2>Our History</h2>
-                <hr>
-                <p> The foundation in 1932 started at the same moment of economic growth in the southern region of the country, as a fashion hub in Brazil. 
-                    The Teles de Bissón family, traditional in the city, invested all their savings in this new initiative, revolutionary for the time. 
-                    The founder Carlos Augusto Teles de Bissón, with a particular administrative vision, guided the company's business for over 50 years, 
-                    many of them was with his son Antonio Augusto Teles de Bissón, the current CEO. The company's name is inspired by the name of the family matriarch, Grace Kelly Teles de Bissón.
-                </p>
-
-                <p>
-                    The company's growth was practically instantaneous. In the first 5 years, it already served 18 countries. It has hit the mark of 100 countries in just 15 years of existence.
-                    Until today, it has served 740 million different users, in billions of different requests. The growth in the number of employees is also staggering.
-                </p>
-
-                <p>
-                    Today, it is the largest employer in Brazil, but even after only 5 years of its existence, it already had 30 thousand employees.
-                    Outside Brazil, there are about 240,000 employees, (alem dos) 890,000 Brazilians at the Cachoeirinha facilities, located in greater Porto Alegre and at offices throughout the country.
-                    (dada a importancia economica) for Brazil, the Teles de Bissón family already offers several awards, honors and decorations.
-                    All the presidents of Brazil already visited the GK Fashion facilities, (alem de) presidents of the European Union, Asia and the UN secretary general.
-                </p>
-                <h2>Our Differentials</h2>
-                <hr>
-                <ul class="differentials">
-                    <li class="items">Low price is garanted</li>
-                    <li class="items">Se você achar uma loja mais barata, leva o produto de graça</li>
-                    <li class="items">Pague em reais, dólares, euros ou bitcoins</li>
-                    <li class="items">Todas as compras com frete grátis para o mundo todo</li>
-                    <li class="items">Maior comércio eletrônico de moda do mundo</li>
-                    <li class="items">Atendimento via telefone, email, chat, twitter, facebook, carta, fax e telegrama</li>
-                    <li class="items">Presente em 124 países</li>
-                    <li class="items">Mais de um milhão de funcionários em todo o mundo</li>
-                </ul>
-            </div>
+            <main>
+                <section id="hisoty">
+                    <div class="our-history">
+                        <h2>Our History</h2>
+                        <hr>
+                        <div class="photo-text">
+                            <div class="text">
+                                <p> The foundation in 1932 started at the same moment of economic growth in the southern region of the country, as a fashion hub in Brazil. 
+                                    The Teles de Bissón family, traditional in the city, invested all their savings in this new initiative, revolutionary for the time. 
+                                    The founder Carlos Augusto Teles de Bissón, with a particular administrative vision, guided the company's business for over 50 years, 
+                                    many of them was with his son Antonio Augusto Teles de Bissón, the current CEO. The company's name is inspired by the name of the family matriarch, Grace Kelly Teles de Bissón.
+                                </p>
+                                <p>
+                                    The company's growth was practically instantaneous. In the first 5 years, it already served 18 countries. It has hit the mark of 100 countries in just 15 years of existence.
+                                    Until today, it has served 740 million different users, in billions of different requests. The growth in the number of employees is also staggering.
+                                </p>
+                                <p>
+                                    Today, it is the largest employer in Brazil, but even after only 5 years of its existence, it already had 30 thousand employees.
+                                </p>
+                            </div>
+                            <div class="photo">
+                                <img src="img/familia-teles.jpg" alt="">
+                            </div>
+                        </div>
+                        <p>
+                            Outside Brazil, there are about 240,000 employees and about to 890,000 Brazilians at the Cachoeirinha facilities, located in greater Porto Alegre and at offices throughout the country.
+                            The economic importance of this store for Brazil, the Teles de Bissón family already offers several awards, honors and decorations.
+                            All the presidents of Brazil already visited the GK Fashion facilities, and some presidents of the European Union, Asia and the UN secretary general.
+                        </p>
+                </section>
+            </main>
         </div>
     </div>
     <footer></footer>

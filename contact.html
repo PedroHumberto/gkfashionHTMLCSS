@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Document</title>
 </head>
 <body>
@@ -55,52 +54,30 @@
             </nav>
         </header>
         <div class="sub-container">
-            <div class="search">
-                <section>
-                    <form action="#">
-                        <button type="submit"><img src="img/search.png" alt=""></button>
-                        <input type="search" placeholder="Search">
-                    </form>
-                </section>
-            </div>
-            <div class="banner">
-                <img src="img/banner2.jpg" alt="">
-                <p>New Arrival Summer Wear</p>
-                <button>Shop Now</button>
-            </div>
-            <div class="bloco1">
-                    <p>FASHION STORE PROMISE</p>
-                    <p id="info">WARRANTY INCLUDED</p>
-            </div>
-            <div class="bloco1">
-                <p>ASSURANCE OF BUYING</p>
-                <p id="info">AUTHENTICITY</p>
-            </div>
-            <div class="bloco1">
-                <p>EXPERT GUIDANCE</p>
-                <p id="info">FAST & EASY RETURNS</p>
-            </div>
-            <div class="arrival">
-                <h2>&#x2756 Arrival</h2>
-                <img src="img/miniatura1.png" alt="">
-                <img src="img/miniatura2.png" alt="">
-                <img src="img/miniatura3.png" alt="">
-                <img src="img/miniatura4.png" alt="">
-                <img src="img/miniatura5.png" alt="">
-                <img src="img/miniatura6.png" alt="">
-            </div>
-            <div class="best-sellers">
-                <h2>&#x2756 Best Sellers</h2>
-                <img src="img/miniatura7.png" alt="">
-                <img src="img/miniatura8.png" alt="">
-                <img src="img/miniatura9.png" alt="">
-                <img src="img/miniatura10.png" alt="">
-                <img src="img/miniatura11.png" alt="">
-                <img src="img/miniatura12.png" alt="">
-            </div>
+            <form class="form">
+                <h2>CONTACT US</h2>
+                <div class="contact-option">
+                    <select name="contact-option">
+                        <option value="">Select an option</option>
+                        <option value="">Suggestion</option>
+                        <option value="">Review</option>
+                        <option value="">Praise</option>
+                        <option value="">Others</option>
+                    </select>
+                </div>
+                <label for="name">Name</label>
+                <input type="name" class="contact" placeholder="Write your name here.."></input>
+                <label for="email">Email</label>
+                <input type="email" class="contact" placeholder="exemple@email.com"></input>
+                <label for="text">Menssage</label>
+                <textarea type="text" class="contact" placeholder="What would you like to tell us.."></textarea>
+                <button class="button-contact">Send Message</button>
+                <div class="call">
+                    <span class="fa fa-phone"></span>+55 00 90000-000
+                    <span class="fa fa-envelope-o"></span> gkfashion@company.com
+                </div>
+            </form>
         </div>
     </div>
-    <footer></footer>
 </body>
-
 </html>

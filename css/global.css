@@ -1,8 +1,17 @@
+/*FAZER OS SUB BOTÕES NAVBAR DAS ROUPAS*/
+
 body{
     background-color: rgba(241, 237, 238, 0.747);
 }
+hr{
+    width: 940px;
+}
 .container{
     min-height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
 }
 .sub-container{
     width: 940px;
@@ -69,6 +78,29 @@ body{
 .dropdown:hover .dropbtn {
     background-color: #333;
 }
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
 .search{
     display: flex;
     align-content: center;
