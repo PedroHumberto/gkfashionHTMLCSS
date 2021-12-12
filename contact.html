@@ -26,18 +26,26 @@
                         <div class="dropdown">
                             <button class="dropbtn">DEPARTMENTS</button>
                             <div class="dropdown-content">
-                            <a href="#">Blouses and Shirts</a>
-                            <a href="#">Pants</a>
-                            <a href="#">Dresses</a>
-                            <a href="#">Shoes</a>
-                            <a href="#">Bags</a>
-                            <a href="#">Accessories</a>
+                                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub"/>
+                                <label class="for-dropdown-sub" for="dropdown-sub">Blouses and Shirts</label>
+                                <div class="section-dropdown-sub"> 
+                                    <a href="#">T-Shirts</a>
+                                    <a href="#">Sleeveless Shirt</a>
+                                    <a href="#">Tank Top</a>
+                                    <a href="#">Dress Shirt</a>
+                                    <a href="#">Polo Shirt</a>
+                                </div>
+                                <a href="#">Pants</a>
+                                <a href="#">Dresses</a>
+                                <a href="#">Shoes</a>
+                                <a href="#">Bags</a>
+                                <a href="#">Accessories</a>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="dropdown">
-                            <button class="dropbtn">LOYALTY PROGRAM</button>
+                            <button class="dropbtn"><a href="loyalt-card.html">LOYALTY PROGRAM</a></button>
                         </div>
                     </li>
                     <li>
@@ -54,30 +62,35 @@
             </nav>
         </header>
         <div class="sub-container">
-            <form class="form">
-                <h2>CONTACT US</h2>
-                <div class="contact-option">
-                    <select name="contact-option">
-                        <option value="">Select an option</option>
-                        <option value="">Suggestion</option>
-                        <option value="">Review</option>
-                        <option value="">Praise</option>
-                        <option value="">Others</option>
-                    </select>
-                </div>
-                <label for="name">Name</label>
-                <input type="name" class="contact" placeholder="Write your name here.."></input>
-                <label for="email">Email</label>
-                <input type="email" class="contact" placeholder="exemple@email.com"></input>
-                <label for="text">Menssage</label>
-                <textarea type="text" class="contact" placeholder="What would you like to tell us.."></textarea>
-                <button class="button-contact">Send Message</button>
-                <div class="call">
-                    <span class="fa fa-phone"></span>+55 00 90000-000
-                    <span class="fa fa-envelope-o"></span> gkfashion@company.com
-                </div>
-            </form>
+            <main>
+                <section id="contact">
+                    <form class="form">
+                        <h2>CONTACT US</h2>
+                        <div class="contact-option">
+                            <select name="contact-option">
+                                <option value="">Select an option</option>
+                                <option value="">Suggestion</option>
+                                <option value="">Review</option>
+                                <option value="">Praise</option>
+                                <option value="">Others</option>
+                            </select>
+                        </div>
+                        <label for="name">Name</label>
+                        <input type="name" class="contact" placeholder="Write your name here.."></input>
+                        <label for="email">Email</label>
+                        <input type="email" class="contact" placeholder="exemple@email.com"></input>
+                        <label for="text">Menssage</label>
+                        <textarea type="text" class="contact" placeholder="What would you like to tell us.."></textarea>
+                        <button class="button-contact">Send Message</button>
+                        <div class="call">
+                            <span class="fa fa-phone"></span>+55 00 90000-000
+                            <span class="fa fa-envelope-o"></span> gkfashion@company.com
+                        </div>
+                    </form>
+                </section>
+            </main>
         </div>
     </div>
+    <footer></footer>
 </body>
 </html>

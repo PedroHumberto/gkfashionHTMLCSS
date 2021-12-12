@@ -1,0 +1,19 @@
+table{
+    margin: 10px auto;
+}
+th, td{
+    text-align: justify;
+    padding: 10px;
+}
+th{
+    font-weight: bolder;
+    background-color: rgba(190, 132, 243, 0.178);
+}
+td:hover{
+    transition: background-color 0.7s ease-out;
+    background-color: rgba(222, 184, 135, 0.171);
+
+}
+td p{
+    margin: 10px auto;
+}
