@@ -1,6 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     background-color: rgba(241, 237, 238, 0.747);
 }
