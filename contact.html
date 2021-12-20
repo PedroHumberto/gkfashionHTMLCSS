@@ -86,11 +86,11 @@
                             </select>
                         </div>
                         <label id="name">Name</label>
-                        <input type="name" class="contact" placeholder="Write your name here..">
+                        <input type="text" name="name" required="required" class="contact" placeholder="Write your name here..">
                         <label id="email">Email</label>
                         <input type="email" class="contact" placeholder="exemple@email.com">
                         <label id="text">Menssage</label>
-                        <textarea class="contact" placeholder="What would you like to tell us.."></textarea>
+                        <textarea class="contact" required="required" placeholder="What would you like to tell us.."></textarea>
                         <button class="button-contact">Send Message</button>
                         <div class="call">
                             <span class="fa fa-phone"></span>+55 00 90000-000
@@ -102,14 +102,14 @@
         </div>
     </div>
     <footer>
-        <div class="footer-items">
+        <div class="footer-container">
             <img src="img/logo_rodape.png" alt="">
             <p>&copy;Copyright GK Fashion</p>
-            <div class="social">
-                <a href="http://www.facebook.com/gkfashion"><img src="img/facebook.png" alt="faebook" title="facebook"></a>
-                <a href="http://plus.google.com/gkfashion"><img src="img/googleplus.png" alt="google plus" title="google plus"></a>
-                <a href="http://www.twitter.com/gkfashion"><img src="img/twitter.png" alt="twitter" title="twitter"></a>
-            </div>
+            <ul class="social">
+                <li id="facebook"><a href="http://www.facebook.com/gkfashion"></a></li>
+                <li id="googleplus"><a href="http://plus.google.com/gkfashion"></a></li>
+                <li id="twitter"><a href="http://www.twitter.com/gkfashion"></a></li>
+              </ul>
         </div>
     </footer>
 </body>

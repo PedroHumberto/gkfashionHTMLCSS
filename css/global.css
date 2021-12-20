@@ -145,6 +145,7 @@ input#dropdown-sub.dropdown-sub{
 .search input{
     position: relative;
     bottom: 4px;
+    border-radius: 10px;
 }
 footer{
     display: flex;
@@ -152,24 +153,49 @@ footer{
     margin-top: 10px;
     width: 100%;
     height: 100px;
-    background-image: url("/img/footer-background.png");
+    background-image: url("../img/footer-background.png");
 }
 footer p{
     color: white;
 }
-.footer-items{
+.footer-container{
     display: flex;
-    align-items: center;
-    width: 100%;
-    margin: auto 30px;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
     justify-content: space-between;
 }
-.social img{
-    width: auto;
-    height: auto;
+.footer-container img{
+    margin-left: 10px;
 }
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 10px;
+}
+.social li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+.social a{
+    height: 32px;
+    width: 32px;
+}
+.social a[href*="http://www.facebook.com/gkfashion"] {  
+    background: url('../img/sociais.png') 0 0;
+}
+.social a[href*="http://plus.google.com/gkfashion"]{ 
+    background: url('../img/sociais.png') 76px 0;
+}
+.social a[href*="http://www.twitter.com/gkfashion"]{
+    background: url('../img/sociais.png') 32px 0;
+}
+
 /*here starts the media queri*/
 @media (min-width: 497px) and (max-width:960px){
     .sub-container{
